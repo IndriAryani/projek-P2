@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Halaman Admin</h1>
-    <h5>TABEL DATA EVENT</h5>
+    <div class="had"><h1>Halaman Admin</h1></div>
     <div class="tmbhevent">
-    <a href="<?php echo base_url('tambah_event'); ?>">Tambah Data</a><br><br>
+    <a href="<?= base_url('tambah_event'); ?>">Tambah Data</a><br><br>
     </div>
     <table border="1" class="event">
         <tr>
+            <th>ID</th>
             <th>ID LOMBA</th>
             <th>NAMA PENDAFTAR</th>
             <th>KELAS</th>
@@ -22,6 +22,7 @@
         </tr>
         <?php foreach ($pendaftaran as $pdf) : ?>
         <tr>
+            <td> <?= $pdf['id'] ?> </td>
             <td> <?= $pdf['id_lomba'] ?> </td>
             <td> <?= $pdf['nama_pendaftar'] ?> </td>
             <td> <?= $pdf['kelas'] ?> </td>
