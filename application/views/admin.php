@@ -8,8 +8,9 @@
 <body>
     <div class="had"><h1>Halaman Admin</h1></div>
     <div class="tmbhevent">
-    <a href="<?= base_url('tambah_event'); ?>">Tambah Data</a><br><br>
+    
     </div>
+    <a class="tombol-daftar" href="<?php echo base_url(); ?>tambah">Tambah Data</a>
     <table border="1" class="event">
         <tr>
             <th>ID</th>

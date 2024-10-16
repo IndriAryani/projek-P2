@@ -3,12 +3,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+		//is_logged_in();
+	}
+
 	public function index()
 	{
 		$this->load->model('pendaftaran_model');
-		$data['pendaftaran'] = $this->pendaftaran_model->getEvent();
+		$data['pendaftaran'] = $this->pendaftaran_model->getPendaftaran();
 		
 		$this->load->view('templete/header');
+		$this->load->view('templete/menu');
 		$this->load->view('admin', $data);
 		$this->load->view('templete/footer');
 	}
@@ -22,19 +29,22 @@ class Admin extends CI_Controller {
 		
 
 		$this->load->view('templete/header');
+		$this->load->view('templete/menu');
 		$this->load->view('edit_event', $data);
 		$this->load->view('templete/footer');
 	}
 	public function update(){
 		$data=
 		[
-			"nama" => $this->input->post('nama', true),
-			"id_alamat" => $this->input->post('alamat', true),
-			"no_telp" => $this->input->post('no_telp', true)
+			"id_lomba" => $this->input->post('id_lomba', true),
+			"nama_pendaftar" => $this->input->post('nama_pendaftar', true),
+			"kelas" => $this->input->post('kelas', true),
+			"no_hp" => $this->input->post('no_hp', true),
+			"tgl_daftar" => $this->input->post('tgl_daftar', true),
 
 		];
-		$this->db->where('nis', $this->input->post('nis'));
-		$this->db->update('siswa', $data);
+		$this->db->where('id', $this->input->post('id'));
+		$this->db->update('pendaftaran', $data); //tabel pendaftaran
 		redirect('admin');
 	}
 }
