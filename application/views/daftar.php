@@ -1,5 +1,5 @@
-<h1 class="h1d">Halaman Registrasi</h1>
-    <div class="halreg">
+<h1 class="hl-reg">Halaman Registrasi</h1><br>
+    <div class="hlmn-reg">
         <form action="daftar/simpan" method="post">
             <input type="text" name="nama" placeholder="masukkan nama"><br><br>
             <input type="text" name="username" placeholder="masukkan username"><br><br>

@@ -30,7 +30,7 @@ class Admin extends CI_Controller {
 
 		$this->load->view('templete/header');
 		$this->load->view('templete/menu');
-		$this->load->view('edit_event', $data);
+		$this->load->view('edit_pendaftaran', $data);
 		$this->load->view('templete/footer');
 	}
 	public function update(){
@@ -40,7 +40,7 @@ class Admin extends CI_Controller {
 			"nama_pendaftar" => $this->input->post('nama_pendaftar', true),
 			"kelas" => $this->input->post('kelas', true),
 			"no_hp" => $this->input->post('no_hp', true),
-			"tgl_daftar" => $this->input->post('tgl_daftar', true),
+			"tgl_daftar" => $this->input->post('tgl_daftar', true)
 
 		];
 		$this->db->where('id', $this->input->post('id'));

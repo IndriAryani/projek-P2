@@ -11,10 +11,10 @@ class login extends CI_Controller {
 	}
     public function verifikasi()
     {
-        $username = $this->input->post('username', TRUE);
-        $password = $this->input->post('password', TRUE);
+        $username = $this->input->post('username');
+        $password = $this->input->post('password');
 
-        $user = $this->db->where('user',['username' => $username])->row();
+        $user = $this->db->get_where('user',['username' => $username])->row_array();
 
         if($user){
             if(password_verify($password, $user['password'])) {

@@ -1,0 +1,42 @@
+.hl-reg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(214, 157, 189);
+    margin-left: 40%;
+    
+}
+.hlmn-reg{
+    box-sizing: border-box;
+    border: 2px solid rgb(214, 157, 189);
+    width: 30%;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 36%;
+}
+.hlmn-reg [type=text]{
+    width: 35%;
+   color: rgb(0, 0, 0);
+   padding: 6px 135px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(245, 223, 235);
+   cursor: pointer;
+}
+.hlmn-reg [type=password]{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 223, 235);
+    cursor: pointer;
+}
+.hlmn-reg [type=submit]{
+    width: 35%;
+    color: rgb(255, 255, 255);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 16%;
+    background-color: rgb(241, 200, 223);
+    cursor: pointer;
+}

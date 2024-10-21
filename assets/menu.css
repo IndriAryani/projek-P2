@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #ddacc6;
+    height: 30px;
+    padding: 10px 10px;
+}
+.menu a{
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
