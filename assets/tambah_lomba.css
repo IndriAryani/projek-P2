@@ -1,0 +1,24 @@
+.hl-lomba{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(214, 157, 189);
+    font-size: 30px;
+    margin-left: 45%;
+}
+.tambah-lomba[type=text]{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 223, 235);
+    cursor: pointer;  
+}
+.tambah-lomba[type=submit]{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 223, 235);
+    cursor: pointer;  
+}

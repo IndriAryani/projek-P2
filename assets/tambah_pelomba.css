@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hl-pndftrn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(214, 157, 189);
+    font-size: 30px;
+    margin-left: 45%;
+}
+.form{
+    box-sizing: border-box;
+    border: 2px solid rgb(214, 157, 189);
+    width: 27%;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 36%;
+}
+.select{
+    width: 50%;
+   color: rgb(0, 0, 0);
+   padding: 6px 135px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(245, 223, 235);
+   cursor: pointer;
+}
+.nama-lngkp{
+    width: 35%;
+   color: rgb(0, 0, 0);
+   padding: 6px 135px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(245, 223, 235);
+   cursor: pointer;
+}
+.kelas{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(241, 200, 223);
+    cursor: pointer;
+}
+.no-hp{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(241, 200, 223);
+    cursor: pointer;
+}
+.tgl-dftr{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(241, 200, 223);
+    cursor: pointer;
+}
+.submit{
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 6px 135px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 16%;
+    background-color: rgb(241, 200, 223);
+    cursor: pointer;
+}

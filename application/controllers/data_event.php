@@ -26,8 +26,7 @@ class data_event extends CI_Controller {
     public function edit($id){
 		$this->load->model('event_model');
 		$data['edit'] = $this->event_model->getEventById($id);
-		
-
+	
 		$this->load->view('templete/header');
 		$this->load->view('templete/menu');
 		$this->load->view('edit_lomba', $data);

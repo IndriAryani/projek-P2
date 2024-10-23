@@ -1,7 +1,6 @@
-<h1 class="data-event">Data Event</h1>
+<br><h1 class="data-event">Data Event</h1><br>
     
-    <a class="tombol-jenis" href="<?php echo base_url(); ?>tambah_lomba">Tambah Data</a>
-    <table border="1" class="nt">
+    <table border="1" class="column-event">
         <tr>
             <th>ID</th>
             <th>NAMA EVENT</th>
@@ -17,4 +16,5 @@
             <td class="t-hapus2"> <a onclick="return confirm('Are u sure want to delete this?')" href="<?= base_url(); ?>data_event/hapus/<?= $jl['id']?>">hapus</a> </td>
         </tr>
         <?php endforeach; ?>
-    </table>
+    </table><br>
+    <a class="tombol-jenis" href="<?php echo base_url(); ?>tambah_lomba">Tambah Data</a>

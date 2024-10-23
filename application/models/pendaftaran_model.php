@@ -12,6 +12,6 @@ class pendaftaran_model extends CI_Model {
 	}
 	public function getPendaftaranById($id){
 		
-		return $this->db->get_where('pendaftaran', ['id' =>$id])->row_array();
+		return $this->db->get('pendaftaran', ['id' =>$id])->row_array();
 	}
 }

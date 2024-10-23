@@ -26,7 +26,8 @@ class Admin extends CI_Controller {
 	public function edit($id){
 		$this->load->model('pendaftaran_model');
 		$data['edit'] = $this->pendaftaran_model->getPendaftaranById($id);
-		
+		$this->load->model('event_model');
+		$data['jns_lomba'] = $this->event_model->getEvent();
 
 		$this->load->view('templete/header');
 		$this->load->view('templete/menu');
