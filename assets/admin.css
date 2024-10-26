@@ -1,18 +1,16 @@
-.hlmn-daftar{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(214, 157, 189);
-    font-size: 30px;
-    margin-left: 25%;
-}
 .tombol-daftar{
-    background-color: rgb(204, 142, 177);
+    background-color: rgb(207, 142, 179);
     text-decoration: none;
     color: white;
     padding: 9px 10px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     font-size: 15px;
-    margin-left: 62%;
+    margin-left: 65%;
+}
+table{
+  margin: 40px;
+  background-color: #faf2f6;
 }
 .event {
     font-family: Arial, Helvetica, sans-serif;
@@ -36,3 +34,19 @@
     background-color: #ddacc6;
     color: white;
   }
+.t-edit a{
+  text-decoration: none;
+  padding: 5px 6px;
+  font-size: 14px;
+  background-color: rgb(157, 206, 83);
+  border-radius: 5px;
+  color: white;
+}
+.t-hapus a{
+  text-decoration: none;
+  padding: 5px 6px;
+  font-size: 13px;
+  background-color: rgb(185, 67, 67);
+  border-radius: 5px;
+  color: white;
+}

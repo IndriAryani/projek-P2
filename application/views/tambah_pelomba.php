@@ -1,9 +1,9 @@
-<br><h1 class="hl-pndftrn">Pendaftaran</h1>
+<br><h1 class="hl-pndftrn">Pendaftaran</h1><br>
     <form class="form"action="tambah_pelomba/tambah" method="post">
         <select class="select" name="nama_lomba">
                 <option value="">Jenis Lomba</option>
                 <?php foreach ($jns_lomba as $lmb) : ?>
-                    <option value="<?= $lmb['id']?>"><?= $lmb['nama_lomba']?></option>
+                    <option value="<?= $lmb['id_jns']?>"><?= $lmb['nama_lomba']?></option>
                 <?php endforeach; ?>
            </select><br><br>
         <input class="nama-lngkp" type="text" name="nama_pendaftar" placeholder="Masukkan Nama Lengkap"><br><br>

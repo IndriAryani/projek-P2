@@ -7,11 +7,11 @@ class pendaftaran_model extends CI_Model {
 	{	
 		$this->db->select('*');
 		$this->db->from('pendaftaran');
-		$this->db->join('jns_lomba','jns_lomba.id = pendaftaran.id_lomba');
+		$this->db->join('jns_lomba','jns_lomba.id_jns = pendaftaran.id_lomba');
         return $this->db->get()->result_array(); 
 	}
 	public function getPendaftaranById($id){
 		
-		return $this->db->get('pendaftaran', ['id' =>$id])->row_array();
+		return $this->db->get('pendaftaran', ['id' => $id])->row_array();
 	}
 }

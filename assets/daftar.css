@@ -7,36 +7,36 @@
 .hlmn-reg{
     box-sizing: border-box;
     border: 2px solid rgb(214, 157, 189);
-    width: 27%;
+    width: 30%;
     padding: 6px 7px;
     border-radius: 10px;
     margin-left: 36%;
 }
 .hlmn-reg [type=text]{
-    width: 35%;
+    width: 400px;
    color: rgb(0, 0, 0);
-   padding: 6px 135px;
+   padding: 6px;
    border-radius: 10px;
    border: none;
    background-color: rgb(245, 223, 235);
    cursor: pointer;
 }
 .hlmn-reg [type=password]{
-    width: 35%;
+    width: 400px;
     color: rgb(0, 0, 0);
-    padding: 6px 135px;
+    padding: 6px;
     border-radius: 10px;
     border: none;
     background-color: rgb(245, 223, 235);
     cursor: pointer;
 }
 .hlmn-reg [type=submit]{
-    width: 35%;
+    width: 300px;
     color: rgb(255, 255, 255);
-    padding: 6px 135px;
+    padding: 6px;
     border-radius: 10px;
     border: none;
-    margin-left: 16%;
+    margin-left: 13%;
     background-color: rgb(241, 200, 223);
     cursor: pointer;
 }

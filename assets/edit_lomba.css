@@ -1,29 +1,30 @@
-.h1-lomba{
+.edit-lomba{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(214, 157, 189);
     font-size: 30px;
     margin-left: 45%;
 }
-.tambah-lomba{
+.edit-lmb{
     box-sizing: border-box;
     border: 2px solid rgb(214, 157, 189);
     width: 32%;
-    padding: 6px 7px;
+    padding: 6px;
+    margin-top: 2px;
     border-radius: 10px;
     margin-left: 36%;
 }
-.tambah-lomba input[type=text]{
+.edit-lmb input[type=text]{
     width: 400px;
     color: rgb(0, 0, 0);
     padding: 6px;
     border-radius: 10px;
     border: none;
     margin-left: 21px;
-   margin-top: 5px;
+    margin-top: 5px;
     background-color: rgb(245, 223, 235);
     cursor: pointer;  
 }
-.tambah-lomba input[type=submit]{
+.edit-lmb input[type=submit]{
     width: 300px;
     color: rgb(0, 0, 0);
     padding: 6px;
@@ -32,6 +33,6 @@
     margin-left: 75px;
    margin-top: 5px;
    margin-bottom: 5px;
-    background-color: rgb(245, 223, 235);
+    background-color: rgb(157, 206, 83);
     cursor: pointer;  
 }

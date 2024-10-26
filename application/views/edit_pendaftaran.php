@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDIT</title>
-</head>
-<body>
-    <h1>Edit Data Pendaftaran</h1>
+<body><br>
+    <h1 class="h1edit">Edit Data Pendaftaran</h1><br>
     <div class="edit-pndftr">
         <form action="<?= base_url ('admin/update')?>" method="post">
         <select name="nama_lomba">
                 <option value="">Jenis Lomba</option>
                 <?php foreach ($jns_lomba as $lmb) : ?>
-                    <option value="<?= $lmb['id']?>"><?= $lmb['nama_lomba']?></option>
+                    <option value="<?= $lmb['id_jns']?>"><?= $lmb['nama_lomba']?></option>
                 <?php endforeach; ?>
            </select><br><br>
             <input type="text" name="nama_pendaftar" value="<?= $edit['nama_pendaftar']; ?>"><br><br>
@@ -24,4 +17,3 @@
         </form>
     </div>
 </body>
-</html>

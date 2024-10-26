@@ -20,11 +20,12 @@ class Admin extends CI_Controller {
 		$this->load->view('templete/footer');
 	}
     public function hapus($id){
-		$this->db->delete('pendaftaran', ['id'=> $id]);
+		$this->db->delete('pendaftaran',['id'=> $id]);
 		redirect('admin');
 	}
 	public function edit($id){
 		$this->load->model('pendaftaran_model');
+		// $data['jns_lomba'] = $this->db->get('jns_lomba')->result_array();
 		$data['edit'] = $this->pendaftaran_model->getPendaftaranById($id);
 		$this->load->model('event_model');
 		$data['jns_lomba'] = $this->event_model->getEvent();
@@ -37,7 +38,8 @@ class Admin extends CI_Controller {
 	public function update(){
 		$data=
 		[
-			"id_lomba" => $this->input->post('id_lomba', true),
+			// "id" => $this->input->post('id', true),
+			"id_lomba" => $this->input->post('nama_lomba', true),
 			"nama_pendaftar" => $this->input->post('nama_pendaftar', true),
 			"kelas" => $this->input->post('kelas', true),
 			"no_hp" => $this->input->post('no_hp', true),

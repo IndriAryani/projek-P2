@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/daftar.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/tambah_pelomba.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/data_event.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/edit_daftar.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/tambah_lomba.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/edit_lomba.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/profil.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/edit_profil.css')?>">
     <title>Document</title>
 </head>
 <body>

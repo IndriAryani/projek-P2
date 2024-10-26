@@ -20,7 +20,7 @@ class data_event extends CI_Controller {
 		$this->load->view('templete/footer');
 	}
 	public function hapus($id){
-		$this->db->delete('jns_lomba', ['id'=> $id]);
+		$this->db->delete('jns_lomba', ['id_jns'=> $id]);
 		redirect('data_event');
 	}
     public function edit($id){
@@ -38,7 +38,7 @@ class data_event extends CI_Controller {
 			"nama_lomba" => $this->input->post('nama_lomba', true),
 			"penyelenggara" => $this->input->post('penyelenggara', true)
 		];
-		$this->db->where('id', $this->input->post('id'));
+		$this->db->where('id_jns', $this->input->post('id_jns'));
 		$this->db->update('jns_lomba', $data);
 		redirect('data_event');
 	}

@@ -1,0 +1,37 @@
+.profil{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 126, 162);
+    text-align: center;
+}
+.pfl{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(214, 157, 189);
+    margin-left: 40%;
+}
+.pfl{
+    box-sizing: border-box;
+    border: 2px solid rgb(214, 157, 189);
+    width: 300px;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 40%;
+    box-shadow: 0 0 25px pink;
+}
+.pfl p{
+    text-align: center;
+   color: rgb(0, 0, 0);
+   margin-left: 13px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+.edit-profil{
+    background-color: rgb(204, 142, 177);
+    text-decoration: none;
+    color: white;
+    padding: 9px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 100px;   
+}

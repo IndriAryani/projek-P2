@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.hl-pndftrn{
+.h1edit{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(214, 157, 189);
     font-size: 30px;
-    margin-left: 45%;
+    text-align: center;
 }
-.form{
+.edit-pndftr{
     box-sizing: border-box;
     border: 2px solid rgb(214, 157, 189);
     width: 32%;
@@ -16,69 +16,49 @@
     border-radius: 10px;
     margin-left: 36%;
 }
-.select{
-    width: 400px;
+.edit-pndftr select{
+    width: 410px;
    color: rgb(0, 0, 0);
    padding: 6px;
-   border-radius: 10px;
-   border: none;
-   margin-left: 21px;
    margin-top: 15px;
-   background-color: rgb(245, 223, 235);
-   cursor: pointer;
-}
-.nama-lngkp{
-    width: 400px;
-   color: rgb(0, 0, 0);
-   padding: 6px;
+   margin-left: 17px;
    border-radius: 10px;
-   margin-left: 21px;
-   margin-top: 5px;
    border: none;
    background-color: rgb(245, 223, 235);
    cursor: pointer;
 }
-.kelas{
+.edit-pndftr input[type=text]{
+    width: 400px;
+   color: rgb(0, 0, 0);
+   padding: 6px;
+   margin-top: 5px;
+   margin-left: 17px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(245, 223, 235);
+   cursor: pointer;
+}
+.edit-pndftr input[type=date]{
     width: 400px;
     color: rgb(0, 0, 0);
     padding: 6px;
+    margin-top: 5px;
+    margin-left: 17px;
     border-radius: 10px;
-    margin-left: 21px;
-   margin-top: 5px;
     border: none;
     background-color: rgb(241, 200, 223);
     cursor: pointer;
 }
-.no-hp{
-    width: 400px;
-    color: rgb(0, 0, 0);
-    padding: 6px;
-    border-radius: 10px;
-    border: none;
-    margin-left: 21px;
-   margin-top: 5px;
-    background-color: rgb(241, 200, 223);
-    cursor: pointer;
-}
-.tgl-dftr{
-    width: 400px;
-    color: rgb(0, 0, 0);
-    padding: 6px;
-    border-radius: 10px;
-    border: none;
-    margin-left: 21px;
-   margin-top: 5px;
-    background-color: rgb(241, 200, 223);
-    cursor: pointer;
-}
-.submit{
+.edit-pndftr input[type=submit]{
     width: 300px;
     color: rgb(0, 0, 0);
     padding: 6px;
+    margin-top: 5px;
+    margin-left: 17px;
     border-radius: 10px;
     border: none;
-    margin-left: 13%;
-    margin-bottom: 15px;
-    background-color: rgb(241, 200, 223);
+    margin-left: 14%;
+    background-color: rgb(157, 206, 83);
     cursor: pointer;
+    margin-bottom: 15px;
 }

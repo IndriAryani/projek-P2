@@ -1,4 +1,4 @@
-    <h1 class="h1-lomba">Tambah Lomba</h1>
+    <br><h1 class="h1-lomba">Tambah Lomba</h1><br>
     <div class="tambah-lomba">
     <form action="tambah_lomba/add" method="post">
             <input type="text" name="nama_lomba" placeholder="Masukkan Nama Lomba"><br><br>

@@ -2,52 +2,71 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(https://thumbs.dreamstime.com/z/baby-pink-grunge-background-texture-faint-vintage-abstract-luxury-rich-design-elegant-antique-paint-wall-illustration-219371761.jpg?w=992) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+}
+h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 41, 41);
+}
 .hlmn-login{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(214, 157, 189);
     margin-left: 40%;
+    margin-top: 170px;
 }
 .login{
     box-sizing: border-box;
     border: 2px solid rgb(214, 157, 189);
-    width: 27%;
+    width: 32%;
     padding: 6px 7px;
     border-radius: 10px;
     margin-left: 34%;
+    cursor: pointer;
+    box-shadow: 0 0 25px pink;
+    backdrop-filter: blur(20px);
 }
 .login [type=text]{
-    width: 35%;
+    width: 400px;
    color: rgb(0, 0, 0);
-   padding: 6px 135px;
+   margin-left: 13px;
+   margin-top: 15px;
+   padding: 6px;
    border-radius: 10px;
    border: none;
    background-color: rgb(245, 223, 235);
    cursor: pointer; 
 }
 .login [type=password]{
-    width: 35%;
+    width: 400px;
     color: rgb(0, 0, 0);
-    padding: 6px 135px;
+    padding: 6px;
+    margin-left: 13px;
     border-radius: 10px;
     border: none;
     background-color: rgb(245, 223, 235);
     cursor: pointer;
 }
 .login [type=submit]{
-    width: 35%;
+    width: 300px;
     color: rgb(255, 255, 255);
-    padding: 6px 135px;
+    padding: 6px ;
     border-radius: 10px;
     border: none;
-    margin-left: 16%;
+    margin-left: 15%;
     background-color: rgb(241, 200, 223);
     cursor: pointer;
 }
 .t-daftar{
     margin-left: 53%;
     font-size: 14px;
+    color: rgb(115, 153, 59);
 }
 .t-daftar a{
-    color:  rgb(182, 117, 154);
+    color:  rgb(207, 86, 86);
     text-decoration: none;
 }
