@@ -26,6 +26,7 @@
             <td> <?= $pdf['no_hp'] ?> </td>
             <td> <?= $pdf['tgl_daftar'] ?> </td>
             <td class="t-edit"> <a href="<?= base_url(); ?>admin/edit/<?= $pdf['id']?>">edit</a> </td>
+            
             <td class="t-hapus"> <a onclick="return confirm('Are u sure want to delete this?')" 
              href="<?= base_url(); ?>admin/hapus/<?= $pdf['id']?>">hapus</a> </td>
         </tr>
